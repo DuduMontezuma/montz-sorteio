@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    background-color: black;
+    padding-top: 50px;
+}
+
+main {
+    width: 475px;
+    margin: 0 auto 0 auto;
+    background-color: rgba(128, 128, 128, 0.486);
+    padding: 10px 24px 23px 40px;
+    border-radius: 20px;
+}
+
+.logo {
+    display: block;
+    margin: 0 auto;
+    width: 250px;  
+}
+
+.description {
+    text-align: center;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+}
+
+section {
+    display: flex;
+    justify-content: space-around;
+} 
+
+.value01 {
+    width: 40%;
+    height: 40px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 14px;
+    padding-left: 8px;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 47px;
+}
+
+.value02 {
+    width: 40%;
+    height: 40px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 14px;
+    padding-left: 8px;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 47px;
+}
+
+.main-button {
+    display: block;
+    width: 142px;
+    height: 52px;
+    border-radius: 10px;
+    border: none;
+    background-color: #AEC346;
+    margin: 10px auto 0 auto; 
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 2px;
+    color: #FFFFFF;
+}
+
+.main-button:hover {
+    opacity: 0.8;
+}
+
+.main-button:active {
+    opacity: 0.6;
+}
+
+.result {
+    text-align: center;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+@media (max-width: 768px) {
+    main {
+        width: 300px;
+    }
+}
