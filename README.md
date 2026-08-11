@@ -13,7 +13,7 @@
 
 Você pode testar o sorteador de números diretamente no seu navegador clicando no link abaixo:
 
-👉 **[Acesse o Montz Sorteio aqui](https://dudumontezuma.github.io/NOME_DO_REPOSITORIO/)**
+👉 **[Acesse o Montz Sorteio aqui](https://dudumontezuma.github.io/montz-sorteio/)**
 
 ## Sobre o projeto
 
